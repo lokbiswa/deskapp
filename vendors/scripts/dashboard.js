@@ -277,7 +277,7 @@ var options4 = {
 		},
 	}
 };
-
+//This is the bargraph on the second row.
 var options5 = {
 	chart: {
 		height: 350,
@@ -433,6 +433,9 @@ chart3.render();
 var chart4 = new ApexCharts(document.querySelector("#chart4"), options4);
 chart4.render();
 
+ 
+
+// rendering the Bargraph 
 var chart5 = new ApexCharts(document.querySelector("#chart5"), options5);
 chart5.render();
 
